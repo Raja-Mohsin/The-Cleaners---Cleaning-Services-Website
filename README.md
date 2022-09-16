@@ -32,3 +32,13 @@ The Cleaners is a Cleaning Service Brand which provides cleaning services at hom
 * PHP
 * Bootstrap
 * XAMPP
+
+## Screenshots of the working system:
+
+![cleaners (1)](https://user-images.githubusercontent.com/112566093/190537284-42542108-82d6-47bd-8419-310747a30c3c.png)
+![cleaners (2)](https://user-images.githubusercontent.com/112566093/190537288-31e18460-a704-4784-99ce-f8297ec62c0d.png)
+![cleaners (3)](https://user-images.githubusercontent.com/112566093/190537290-3839a09a-a33f-437d-ab89-94de5a30d29e.png)
+![cleaners (4)](https://user-images.githubusercontent.com/112566093/190537292-e708940c-0b92-4438-91ae-a82983b0f13c.png)
+![cleaners (5)](https://user-images.githubusercontent.com/112566093/190537296-511e9c15-2feb-466a-a3d5-c0412ef25832.png)
+
+Thanks for watching
