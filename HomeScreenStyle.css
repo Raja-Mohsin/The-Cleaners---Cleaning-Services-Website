@@ -1,0 +1,26 @@
+.serviceIntroPara
+{
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+    /* margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px; */
+}
+
+*
+{
+    font-family: 'Open Sans';
+}
+
+.introImage
+{
+    width: 300px;
+    height: 200px;
+}
+
+.seeAllText
+{
+    margin-left: 150px;
+    margin-bottom: 60px;
+}

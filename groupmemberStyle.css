@@ -1,0 +1,104 @@
+
+body{
+    background-color:#ffffff;
+    color: #74ae49;
+}
+.header{
+    font-family: poppins;
+    text-align: center;
+    margin: auto;
+    max-width: 50vh;
+    padding-block: 48px;
+    margin-bottom: 48px;
+    color: #74ae49;
+    font-size: 32px;
+    letter-spacing:4px ;
+
+}
+.header p{
+    color: black;
+    font-size: 10px;
+}
+section{
+     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-content: center;
+    align-content: center;
+}
+.team
+{
+    width: 320px;
+    height: 480px;
+    overflow: hidden;
+    margin: 8px;
+   border: none;
+    box-shadow: 2px 2px 6px 0px rgba(0,0, 0, 0.3) ;
+    border-radius: 16px;
+    position: relative;
+}
+.team::before
+{
+    content:'' ;
+    background-image: var(--img);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    filter: blur(4px) grayscale(100%);   
+}
+.team img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 320px;
+    height: 480px;
+    border-radius: 16px;
+    z-index:3;
+    object-fit: cover;
+    border: none;
+}
+.team:hover img{
+    width: 160px;
+    height: 240px;
+    border: 2px solid #74ae49;
+    left: 80px;
+    top: 60px;
+}
+.team .info{
+    font-family: poppins;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    left:0;
+    right: 0px;
+    z-index: 2;
+    color: black;
+    padding:16px;
+    border-top: 5px solid #74ae49;
+    border-radius: 50% 50% 0px 0px;
+    padding-top: 80px;
+    text-align: center;
+    transform: scale(1)
+}
+.team .name{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 16px;
+    text-transform: capitalize;
+}
+.team .Reg{
+    color: gray;
+    text-transform: capitalize;
+}
+.team .phone{
+    color: gray;
+    text-transform: capitalize;
+}
+.info:hover{
+    transform: scale(1)
+}

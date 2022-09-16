@@ -1,0 +1,290 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+*
+{
+    font-family: 'Open Sans';
+}
+
+.nav-list
+{
+    /* width: 80%;
+    height: 10%;
+    margin-right: 40px;
+    float: right; */
+    margin: auto;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #74ae49;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.nav-list li a
+{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 25px;
+    display: block;
+}
+
+.logo
+{
+    height: 130px;
+    width: 130px;
+    /* float: left;
+    width: 10%;
+    height: 100px;
+    margin-top: 10px; */
+}
+
+.nav-list li img
+{
+    width: 100px;
+    height: 70px;
+}
+
+.nav-list li :hover
+{
+    background-color: #4d93c5;
+}
+
+.serviceHeading
+{
+    color: #198754;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.serviceIntroPara
+{
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.bookNowHeading
+{
+    color: #74ae49;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.pictureAndForm
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.formImage
+{
+    width: 400px;
+    height: 350px;
+}
+
+
+.myFormDiv
+{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    border: 2px solid #74ae49;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#nameInput, #phoneInput, #dateInput
+{
+    width: 350px;
+    padding: 8px;
+}
+
+#nameInput:focus , #phoneInput:focus, #dateInput:focus, #addressInput:focus
+{
+    outline: 2px solid #74ae49;
+    border: none;
+}
+
+#addressInput
+{
+    width: 350px;
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border: 2px solid #74ae49;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    border-radius: 8px;
+}
+
+.introImage
+{
+    width: 300px;
+    height: 200px;
+}
+
+.footer
+{
+    height: 200px;
+}
+
+#nameInput, #phoneInput, #dateInput
+{
+    margin-bottom: 30px;
+    border-bottom: 2px solid #74ae49;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+#morning, #evening
+{
+    margin-bottom: 10px;
+}
+
+#preferredTiming
+{
+    margin-bottom: 6px;
+}
+
+.orderButton
+{
+    margin-bottom: 30px;
+    width: 300px;
+    padding: 14px 60px;
+    background-color: #74ae49;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 40px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+}
+
+.orderButton:hover
+{
+    background-color: white;
+    color: #74ae49;
+    border: 2px solid #74ae49;
+    font-weight: bold;
+    box-shadow: 0px 15px 20px #74ae49;
+    transform: translateY(-5px);
+}
+
+.wrapBookButton
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.fa
+{
+    padding: 30px;
+    font-size: 40px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-right: 40px;
+    border-radius: 50%;
+}
+  
+.fa:hover
+{
+      opacity: 0.7;
+}
+  
+.fa-facebook
+{
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter
+{
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram
+{
+    background: #bc2a8d;
+    color: white;
+}
+
+.fa-linkedin
+{
+    background: #007bb5;
+    color: white;
+}
+
+.socialHeading
+{
+    margin-left: 100px;
+    color: #74ae49;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.socialIcons
+{
+    margin-left: 100px;
+    display: flex;
+    justify-content: start;
+}
+
+.contactUs
+{
+    margin-left: 100px;
+    color: #74ae49;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.callButton
+{
+    margin-left: 100px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    width: 300px;
+    padding: 14px 60px;
+    background-color: #74ae49;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 40px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+}
+
+.callButton:hover
+{
+    background-color: white;
+    color: #74ae49;
+    border: 2px solid #74ae49;
+    font-weight: bold;
+    box-shadow: 0px 15px 20px #74ae49;
+    transform: translateY(-5px);
+}
